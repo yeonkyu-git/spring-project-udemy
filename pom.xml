@@ -35,6 +35,18 @@
             <version>6.2.0.Final</version>
         </dependency>
 
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-jasper</artifactId>
+            <version>9.0.73</version>
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
 
 </project>

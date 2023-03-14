@@ -24,4 +24,9 @@
         <property name="suffix" value=".jsp" />
     </bean>
 
+    <!-- Load custom messages resources -->
+    <bean id="messageSource"
+          class="org.springframework.context.support.ResourceBundleMessageSource">
+        <property name="basenames" value="resources/messages.properties" />
+    </bean>
 </beans>
